@@ -1,0 +1,97 @@
+body{
+    background-image:url(/Static/images/beer-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#divpic{height: 350px; width: 350px; text-align: center;}
+
+.photoDesc{font-size: 1.5em;}
+
+.wrapper{
+    margin-top: 10%;
+}
+
+.wrapper h1{
+    font-size: 52px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: aquamarine;
+}
+
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+
+.team .team_member{
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 200px;
+    color: aquamarine;
+    padding: 20px;
+    line-height: 20px;
+}
+
+.team .team_member h3{
+    font-size: 23px;
+}
+
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: aquamarine;
+    width: 100px;
+    display: block;
+    padding: 15px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+
+.navbar a:hover{
+    background: black;
+}
+
+.jumbotron{
+    background: gainsboro;
+    height: 90px;
+    /* opacity: 0.8;*/
+    margin: 20px;
+    border: 1px black;
+}
+
+.jumbotron h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(7, 37, 27);
+    font-weight: bold;
+}
+
+.introduction{
+    background: gainsboro;
+}
+
+.results{
+    background: gainsboro;
+}
+
+.process{
+    background: gainsboro;
+}
