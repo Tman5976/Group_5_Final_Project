@@ -69,9 +69,8 @@ body{
 }
 
 .jumbotron{
-    background: gainsboro;
+    background: rgba(0, 0, 0, 0);
     height: 90px;
-    /* opacity: 0.8;*/
     margin: 20px;
     border: 1px black;
 }
@@ -80,20 +79,20 @@ body{
     text-align: center;
     font-size: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(7, 37, 27);
+    color: rgb(45, 158, 120);
     font-weight: bold;
 }
 
 .introduction{
-    background: gainsboro;
+    background: rgba(0, 0, 0, 0);
 }
 
 .results{
-    background: gainsboro;
+    background: rgba(0, 0, 0, 0);
 }
 
 .process{
-    background: gainsboro;
+    background: rgba(0, 0, 0, 0);
 }
 
 .team .team_member a{
