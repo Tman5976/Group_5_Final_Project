@@ -55,11 +55,20 @@
         - Brief paragraph on accuracy of model
         - Possible improvements of model.
     </p>
-
+    <h3>Neural Network Model</h3>
+    <h4>Model Composition</h4>
     <p>
-        - Relevant stats on final NN (pictures of graphs and important stats included)
-        - Brief paragraph on accuracy (MSE in our case) of model
-        - Possible improvements of model.
+        We set up a neural network model to see how it would compare to the MLR model. 
+        The model consisted of 2 hidden layers (20 nodes each) with a 'relu' activation function and a sigmoid output layer.
+        The model was trained on the same data as the MLR but scaled using the sklearn 'StandardScaler' function. 
+    </p>
+    <h4>Results</h4>
+    <p>
+        The model achieved a MSE of between 7.9 and 8.1 depending on the run. We tried adding 'beer_style' as a feature to see if 
+        it would improve the model. There were 103 styles so we dropped the styles with less than 100 entries leaving us with 13.
+        Using the sklearn OneHotEncoder function we converted the data and fed it into the model. Unfortunately the model did not react perceptibly to the new features. 
+        Altering the epochs, node count, and activation functions did not yield anything better than a 7.9 MSE.<br>
+        We conclude that a neural network is perhaps overcomplicated for this problem and that a MLR is better suited for this prediction. 
     </p>
 </div>
 
