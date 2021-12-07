@@ -1,7 +1,7 @@
 # Beer Review Predictor
 
 ## Introduction
-Image yourself wandering the aisles of a liquor store. There are so many options, Ale, Lager, Pale Ale, Indian Pale ale., Doppelbock. How does one pick? How do you ensure your senses will be satiated, flooded with the perfect hints of citrus, hops or wheat. Is your beer selection going to be instagram worthy and earn you the awe and respect of your followers and friends? Or will you be thought of a connoisseur of natty light forever?
+Imagine yourself wandering the aisles of a liquor store. There are so many options, Ale, Lager, Pale Ale, Indian Pale ale., Doppelbock. How does one pick? How do you ensure your senses will be satiated, flooded with the perfect hints of citrus, hops or wheat. Is your beer selection going to be instagram worthy and earn you the awe and respect of your followers and friends? Or will you be thought of a connoisseur of natty light forever?
 Luckily, for you, for our group project, we analyzed reviews from one user at Beeradvocate.com, northyorksammy.  Who, alone  has completed over 5817 reviews, on various kinds of beer. We used his reviews of taste, aroma, appearance, and palate for each beer, to predict what his overall review would be.  By using this tool one should be able to predict review ratings for beer based on the individual components of each beer.
 
 ## Preprocessing the Data
