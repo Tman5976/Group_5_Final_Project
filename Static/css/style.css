@@ -123,6 +123,19 @@ body{
     color: rgb(255, 255, 255)
 }
 
+.conclusion{
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.conclusion h1{
+    color: rgb(255, 255, 255);
+}
+
+.conclusion p{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
 .team .team_member a{
     font-size: 20px;
     font-style: oblique;
