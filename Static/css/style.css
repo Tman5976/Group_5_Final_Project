@@ -1,5 +1,5 @@
 body{
-    background-image:url(/Static/images/beer-bg.jpg);
+    background-image:url(../images/beer-bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
