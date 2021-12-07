@@ -34,6 +34,21 @@
     </p>
 </div>
 
+<div class="preprocessing">
+    <h1 style="color:rgb(3, 5, 5); padding-top:40px;">
+        Preprocessing the Data
+    </h1>
+      
+    <p>
+        The data file of beer reviews contained over 1.5 million beer reviews. 
+        This was too many for our models, so we decided to look at the number of reviews that were left by each user in the dataset. 
+        One user called “northyorksammy” had 5,817 reviews, which is a much more manageable number. 
+        We filtered the dataset to only include reviews by northyorksammy and dropped columns not relevant to our process. 
+        The columns we kept include: review_overall, review_aroma, review_appearance, review_palate, review_taste, beer_style, and beer_abv. 
+        We also dropped empty rows in the dataset, which left us with 5,346 rows of reviews.
+    </p>
+</div>
+
 <div class="results">
     <h1 style="color: rgb(4, 8, 7); padding-top:40px;">
         Results
