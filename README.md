@@ -1,7 +1,8 @@
 # Beer Review Predictor
 
 ## Introduction
-
+Image yourself wandering the aisles of a liquor store. There are so many options, Ale, Lager, Pale Ale, Indian Pale ale., Doppelbock. How does one pick? How do you ensure your senses will be satiated, flooded with the perfect hints of citrus, hops or wheat. Is your beer selection going to be instagram worthy and earn you the awe and respect of your followers and friends? Or will you be thought of a connoisseur of natty light forever?
+Luckily, for you, for our group project, we analyzed reviews from one user at Beeradvocate.com, northyorksammy.  Who, alone  has completed over 5817 reviews, on various kinds of beer. We used his reviews of taste, aroma, appearance, and palate for each beer, to predict what his overall review would be.  By using this tool one should be able to predict review ratings for beer based on the individual components of each beer.
 
 ## Preprocessing the Data
 The data file of beer reviews contained over 1.5 million beer reviews. This was too many for our models, so we decided to look at the number of reviews that were left by each user in the dataset. One user called “northyorksammy” had 5,817 reviews, which is a much more manageable number. We filtered the dataset to only include reviews by northyorksammy and dropped columns not relevant to our process. The columns we kept include: review_overall, review_aroma, review_appearance, review_palate, review_taste, beer_style, and beer_abv. We also dropped empty rows in the dataset, which left us with 5,346 rows of reviews.
@@ -37,3 +38,4 @@ Altering the epochs, node count, and activation functions did not yield anything
 We conclude that a neural network is perhaps overcomplicated for this problem and that a MLR is better suited for this prediction.
 
 ## Conclusion
+Overall, after many tries and corrections to our code, we found that the Multiple Learning Regression model worked best, and we were able to accurately able to predict the overall score of each beer. There was also no noticeable difference between the weighted results and the initial results. We would like to thank and tip our glass to  northyorksammy, for his commitment to beer and his many many reviews, cheers. 
