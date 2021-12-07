@@ -84,15 +84,43 @@ body{
 }
 
 .introduction{
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.introduction h1{
+    color: rgb(255, 255, 255);
+}
+
+.introduction p{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.preprocessing {
+    background: rgba(0, 0, 0, 0.6);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
 }
 
 .results{
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.6);
 }
 
-.process{
-    background: rgba(0, 0, 0, 0);
+.results p{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.results h1{
+    color: rgb(255, 255, 255)
+}
+
+.results h3{
+    color: rgb(255, 255, 255)
+}
+
+.results h4{
+    color: rgb(255, 255, 255)
 }
 
 .team .team_member a{
