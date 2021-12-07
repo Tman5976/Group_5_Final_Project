@@ -1,4 +1,4 @@
-d3.json("../../Resources/plot1.json").then((data) => {
+d3.json("../Resources/plot1.json").then((data) => {
     var Data = data.data
     let Error = []
     let PV = []
@@ -20,7 +20,7 @@ d3.json("../../Resources/plot1.json").then((data) => {
     Plotly.newPlot("plot1", plot1Data, plot1Layout);
 });
 
-d3.json("../../Resources/plot2.json").then((data) => {
+d3.json("../Resources/plot2.json").then((data) => {
     var Data = data.data
     let Error = []
     let PV = []
