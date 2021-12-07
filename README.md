@@ -38,6 +38,6 @@ Altering the epochs, node count, and activation functions did not yield anything
 We conclude that a neural network is perhaps overcomplicated for this problem and that a MLR is better suited for this prediction.
 
 ## Conclusion
-Overall, after many tries and corrections to our code, we found that the Multiple Learning Regression model worked best, and we were able to accurately able to predict the overall score of each beer. There was also no noticeable difference between the weighted results and the initial results. We would like to thank and tip our glass to  northyorksammy, for his commitment to beer and his man,y many reviews.
+Overall, after many tries and corrections to our code, we found that the Multiple Learning Regression model worked best, and we were able to accurately predict the overall score of each beer. There was also no noticeable difference between the weighted results and the initial results. We would like to thank and tip our glass to  northyorksammy, for his commitment to beer and his many many reviews.
 
 Cheers!
